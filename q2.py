@@ -14,4 +14,4 @@ def hanoi(n, source, spare, target):
     count2 = hanoi(n - 1, spare, source, target)
     return count1 + 1 + count2
 # The Time Complexity is O(2^n) 
-
+hanoi(3,'A','B','C')
